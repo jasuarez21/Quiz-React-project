@@ -1,0 +1,49 @@
+.logOutSection{
+    display: flex;
+    flex-direction: row;
+    .logOutSection__components{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 10px;
+
+        .logOutSection__components--button{
+            border-radius: 10px 10px;
+            border:none;
+            color:#ffffff;
+            margin-top:2em;
+            padding: 3px;
+            box-shadow: 2px 2px #00000040 , -2px -2px   #ffffff1f;
+            cursor: pointer;
+            background-color: #f79424;
+            
+            &:hover{
+                background-color: #c2751d ;
+            }
+        }
+    }
+
+    .logOutSection__components--img{
+        border-radius: 50%;
+    }
+}
+.loginSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:11em;
+    height: 100px;
+    .loginSection__components--button{
+        border-radius: 10px 10px;
+        border:none;
+        color:#ffffff;
+        font-size: 1.1em;
+        padding: 6px;
+        box-shadow: 2px 2px #00000040 , -2px -2px   #ffffff1f;
+        cursor: pointer;
+            background-color: #f79424;
+            &:hover{
+                background-color: #c2751d ;
+            }
+    }
+}

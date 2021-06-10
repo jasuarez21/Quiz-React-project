@@ -1,0 +1,57 @@
+.mode-game {
+  background-color: #023047;
+  border-radius: 25px;
+  color: #fa1919;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30vw;
+  height: 50vh;
+}
+
+.mode-game__difficult {
+  width: 10vw;
+  cursor: pointer;
+  margin: 3vh 0vw;
+  border-radius: 15px;
+  background-color: #caf0f8;
+  border: 2px solid transparent;
+}
+
+.mode-game__type {
+  width: 10vw;
+  cursor: pointer;
+  margin-bottom: 3vh;
+  border-radius: 15px;
+  background-color: #caf0f8;
+  border: 2px solid transparent;
+}
+
+.mode-game__type:hover, .mode-game__difficult:hover {
+  border: 2px solid yellow;
+}
+
+.mode-game__accept {
+  background-color: #023047;
+  width: 8vw;
+  border: none;
+  margin-top: 3vh;
+  cursor: pointer;
+  margin-left: 20vw;
+}
+
+.mode-game__accept img:hover {
+  -webkit-filter: drop-shadow(2px 2px 0 #b7e4c7) drop-shadow(-2px -2px 0 #b7e4c7);
+  filter: drop-shadow(2px 2px 0 #b7e4c7) drop-shadow(-2px -2px 0 #b7e4c7);
+}
+/*# sourceMappingURL=gameMode.css.map */

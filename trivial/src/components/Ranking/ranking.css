@@ -1,0 +1,139 @@
+.ranking-game {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 55vh;
+  width: 60vw;
+  margin-left: 5vw;
+}
+
+.ranking-game__container-gif {
+  width: 20vw;
+  margin-left: 50vw;
+  position: absolute;
+  margin-bottom: 50vh;
+  text-align: center;
+}
+
+.ranking-game__container-gif img {
+  width: 10vw;
+}
+
+.ranking-game__avatar {
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.ranking-game__avatar img {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 8vw;
+  height: 15vh;
+  border-radius: 50%;
+}
+
+.ranking-game__podium {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 18vh;
+}
+
+.ranking-game__podium--second {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  width: 10vw;
+  height: 15vh;
+  background-color: #6c757d;
+  -webkit-box-shadow: 0 0 1em #6c757d;
+          box-shadow: 0 0 1em #6c757d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ranking-game__podium--second img, .ranking-game__podium--second p {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.ranking-game__podium--first {
+  -webkit-box-shadow: 10px 5px 5px black;
+          box-shadow: 10px 5px 5px black;
+  height: 18vh;
+  width: 13vw;
+  -webkit-box-shadow: 0 0 1em #F9C74F;
+          box-shadow: 0 0 1em #F9C74F;
+  background-color: #F9C74F;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ranking-game__podium--first img, .ranking-game__podium--first p {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.ranking-game__podium--third {
+  -webkit-box-shadow: 10px 5px 5px #504f4f;
+          box-shadow: 10px 5px 5px #504f4f;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  height: 13vh;
+  width: 10vw;
+  -webkit-box-shadow: 0 0 1em #F8961E;
+          box-shadow: 0 0 1em #F8961E;
+  background-color: #F8961E;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ranking-game__podium--third img, .ranking-game__podium--third p {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+/*# sourceMappingURL=ranking.css.map */

@@ -1,0 +1,75 @@
+.logOutSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.logOutSection .logOutSection__components {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 10px;
+}
+
+.logOutSection .logOutSection__components .logOutSection__components--button {
+  border-radius: 10px 10px;
+  border: none;
+  color: #ffffff;
+  margin-top: 2em;
+  padding: 3px;
+  -webkit-box-shadow: 2px 2px #00000040 , -2px -2px   #ffffff1f;
+          box-shadow: 2px 2px #00000040 , -2px -2px   #ffffff1f;
+  cursor: pointer;
+  background-color: #f79424;
+}
+
+.logOutSection .logOutSection__components .logOutSection__components--button:hover {
+  background-color: #c2751d;
+}
+
+.logOutSection .logOutSection__components--img {
+  border-radius: 50%;
+}
+
+.loginSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 11em;
+  height: 100px;
+}
+
+.loginSection .loginSection__components--button {
+  border-radius: 10px 10px;
+  border: none;
+  color: #ffffff;
+  font-size: 1.1em;
+  padding: 6px;
+  -webkit-box-shadow: 2px 2px #00000040 , -2px -2px   #ffffff1f;
+          box-shadow: 2px 2px #00000040 , -2px -2px   #ffffff1f;
+  cursor: pointer;
+  background-color: #f79424;
+}
+
+.loginSection .loginSection__components--button:hover {
+  background-color: #c2751d;
+}
+/*# sourceMappingURL=login.css.map */

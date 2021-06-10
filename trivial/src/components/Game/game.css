@@ -1,0 +1,100 @@
+.game-window {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  background-color: #023047;
+  border-radius: 25px;
+  color: #264653;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50vw;
+  height: auto;
+}
+
+.game-window__question {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 25px;
+  padding: 10px;
+  background-color: #219EBC;
+  border-radius: 25px;
+  margin-top: 5vh;
+  width: 40vw;
+  height: auto;
+}
+
+.answer-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 30px 30px 10px 30px;
+  width: 35vw;
+  height: 25vh;
+}
+
+.answer-box__answer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 25px;
+  font-size: 20px;
+  margin: 10px;
+  width: 15vw;
+  height: 10vh;
+  background-color: #e9c46a;
+  -webkit-box-shadow: 0 9px #999;
+          box-shadow: 0 9px #999;
+  cursor: pointer;
+}
+
+.answer-box__answer:active {
+  -webkit-box-shadow: 0 5px #666;
+          box-shadow: 0 5px #666;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+}
+
+.correct {
+  background-color: #2a9d8f;
+}
+
+.incorrect {
+  background-color: #e63946;
+}
+
+.game-window__info {
+  color: #e63946;
+  padding-bottom: 5vh;
+}
+/*# sourceMappingURL=game.css.map */

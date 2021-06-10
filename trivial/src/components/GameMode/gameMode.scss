@@ -1,0 +1,44 @@
+.mode-game{
+    background-color: #023047;
+    border-radius: 25px;
+    color: #fa1919;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 50vh;
+    &__difficult{
+        width: 10vw;
+        cursor: pointer;
+        margin: 3vh 0vw;
+        border-radius: 15px;
+        background-color: #caf0f8;
+        border: 2px solid transparent;
+    }
+    &__type{
+        width: 10vw;
+        cursor: pointer;
+        margin-bottom: 3vh;
+        border-radius: 15px;
+        background-color: #caf0f8;
+        border: 2px solid transparent;
+    }
+    &__type:hover, &__difficult:hover{
+        border: 2px solid yellow;
+    }
+    &__accept {
+        background-color: #023047;
+        width: 8vw;
+        border: none;
+        margin-top: 3vh;
+        cursor: pointer;
+        margin-left: 20vw;
+    }
+    &__accept img:hover {
+        -webkit-filter: drop-shadow(2px 2px 0#b7e4c7)
+    drop-shadow(-2px -2px 0 #b7e4c7);
+    filter: drop-shadow(2px 2px 0 #b7e4c7)
+    drop-shadow(-2px -2px 0 #b7e4c7);
+    }
+}

@@ -1,0 +1,75 @@
+.ranking-game{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    height: 55vh;
+    width: 60vw;
+    margin-left: 5vw;
+        &__container-gif{
+            width: 20vw;
+            margin-left: 50vw;
+            position: absolute;
+            margin-bottom: 50vh;
+            text-align: center;
+            img{
+                width: 10vw;
+            }
+        }
+        &__avatar {
+            align-self: center;
+            display: flex;
+            flex-direction: column;
+            img {
+                justify-self: center;
+                align-self: center;
+                width: 8vw;
+                height: 15vh;
+                border-radius: 50%;
+            }
+        }
+        &__podium {
+            display: flex;
+            justify-content: space-around;
+            height: 18vh;
+            &--second{
+                align-self: flex-end;
+                width: 10vw;
+                height: 15vh;
+                background-color: #6c757d;
+                box-shadow: 0 0 1em #6c757d;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                img,p {
+                    align-self: center;
+                }
+            }
+            &--first {
+                box-shadow: 10px 5px 5px black;
+                height: 18vh;
+                width: 13vw;
+                box-shadow: 0 0 1em #F9C74F;
+                background-color: #F9C74F;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                img,p {
+                    align-self: center;
+                }
+            }
+            &--third {
+                box-shadow: 10px 5px 5px rgb(80, 79, 79);
+                align-self: flex-end;
+                height: 13vh;
+                width: 10vw;
+                box-shadow: 0 0 1em #F8961E;
+                background-color: #F8961E;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                img,p {
+                    align-self: center;
+                }
+            }
+        }
+}
